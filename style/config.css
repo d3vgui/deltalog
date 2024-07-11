@@ -138,6 +138,7 @@
     background: none;
     cursor: pointer;
     gap: 0.5rem;
+    color: var(--secondary);
   }
   #hamburger {
     border-top: 2px solid;

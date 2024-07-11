@@ -350,6 +350,10 @@ footer .content-footer i {
 
 @media (max-width: 768px) {
 
+  #headerHome{
+    background-color: var(--white) !important;
+  }
+
   #bg {
     background-color: #000000ae;
     background-blend-mode: color;

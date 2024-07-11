@@ -130,6 +130,10 @@
     padding-top: 140px;
 }
 
+#sec-one .content-sec-one{
+  flex-direction: column-reverse;
+}
+
 
 #sec-one .content-right h2 {
   font-size: 22px;
