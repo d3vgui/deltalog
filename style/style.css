@@ -1,0 +1,394 @@
+#bg {
+  background-image: url(/img/banner.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 80% center;
+  height: 100vh;
+}
+
+#bg .content-bg {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+#bg .content-bg .title-bg h2 {
+  font-weight: 600;
+  color: var(--main);
+}
+
+#bg .content-bg .title-bg p {
+  font-weight: 600;
+}
+
+#bg .content-bg .btn-contact-us {
+  margin-top: 30px;
+}
+
+#bg .content-bg .btn-contact-us i {
+  margin-left: 10px;
+}
+
+#bg .content-bg .btn-contact-us a {
+  text-decoration: none;
+  padding: 15px 30px;
+  background-color: var(--main);
+  color: var(--white);
+  font-weight: 600;
+  border-radius: 10px;
+  transition: 0.4s ease-in-out;
+}
+
+#bg .content-bg .btn-contact-us a:hover {
+  background-color: var(--white);
+  color: var(--main);
+}
+
+/* about us */
+
+#about-us {
+  padding: 90px 0;
+}
+
+#about-us .content-about-us {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#about-us .content-left h5 {
+  border-left: 5px solid var(--main);
+  padding-left: 10px;
+}
+
+#about-us .content-left h2 {
+  color: var(--main);
+}
+
+#about-us .btn-business {
+  margin-top: 30px;
+}
+
+#about-us .btn-business a {
+  padding: 15px 30px;
+  color: var(--white);
+  background-color: var(--main);
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: 0.4s all ease-in-out;
+  font-size: 17px;
+}
+
+#about-us .btn-business a:hover {
+  margin-left: 40px;
+}
+
+#about-us .btn-business i {
+  margin-left: 10px;
+}
+
+/* quality */
+
+#quality {
+  padding: 90px 0;
+  background-color: var(--bg);
+}
+
+#quality .content-quality {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#quality .content-left .text-left {
+  text-align: center;
+  margin-top: 70px;
+}
+
+#quality .content-left .text-left i {
+  color: var(--main);
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+
+#quality .content-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transition: 0.4s all ease-in-out;
+}
+
+/* #quality .content-middle img{
+  width: fit-content;
+  height: fit-content;
+  transition: 0.3s all ease-in-out;
+} */
+
+#quality .content-middle:hover {
+  transform: scale(1.1);
+}
+
+#quality .content-right .text-right {
+  text-align: center;
+  margin-top: 70px;
+}
+
+#quality .content-right .text-right i {
+  color: var(--main);
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+
+/* services */
+
+#services {
+  padding: 90px 0;
+}
+
+#services .title-services h5 {
+  border-left: 5px solid var(--main);
+  padding-left: 10px;
+}
+
+#services .title-services h2 {
+  color: var(--main);
+}
+
+#services .content-services {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#services .card-services {
+  height: 400px;
+  width: 300px;
+  background-color: var(--bg);
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#services .card-services i {
+  color: var(--main);
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#services .card-services h4 {
+  font-size: 20px;
+  text-align: center;
+}
+
+#services .card-services .text-card {
+  height: 190px;
+  display: flex;
+  align-items: center;
+}
+
+#services .card-services p {
+  text-align: center;
+}
+
+#services .btn-know-more {
+  margin-bottom: 30px;
+  transition: 0.4s all ease-in-out;
+  display: flex;
+  justify-content: center;
+}
+
+#services .btn-know-more:hover {
+  transform: scale(1.1);
+}
+
+#services .btn-know-more a {
+  padding: 15px 30px;
+  background-color: var(--main);
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  font-weight: 500;
+}
+
+/* licenses */
+
+#licenses {
+  padding: 80px 0;
+}
+
+#licenses h2 {
+  border-left: 5px solid var(--main);
+  padding-left: 15px;
+}
+
+#licenses .btn-licenses {
+  margin-top: 30px;
+  width: 100%;
+}
+
+#licenses a {
+  padding: 15px 30px;
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--main);
+  font-weight: 600;
+  transition: 0.4s all ease-in-out;
+}
+
+#licenses a:hover {
+  margin-left: 30px;
+}
+
+#licenses i {
+  margin-left: 10px;
+}
+
+
+/* ----- whats button ----- */
+
+.whats-button {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  z-index: 9999;
+  animation: moveRightLeft 2s infinite alternate ease-in-out;
+}
+
+.whats-button img {
+  height: 60px;
+  width: 60px;
+}
+
+@keyframes moveRightLeft {
+  0% {
+    right: 10px;
+  }
+
+  50% {
+    right: 40px;
+  }
+
+  100% {
+    right: 10px;
+  }
+}
+
+/* ----- footer ----- */
+
+footer {
+  background-color: var(--secondary);
+  padding: 30px 0;
+}
+
+footer .content-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+footer .logo-footer {
+  display: flex;
+  align-items: center;
+  height: 170px;
+}
+
+footer .logo-footer img {
+  width: 220px;
+  height: 65px;
+  background-color: var(--white);
+}
+
+footer .content-footer ul {
+  padding: 0px !important;
+}
+
+footer .content-footer li {
+  list-style-type: none;
+}
+
+
+footer .content-footer h3 {
+  font-size: 18px;
+  color: var(--main);
+  font-weight: 600;
+}
+
+footer .content-footer a {
+  font-size: 18px;
+  color: var(--white);
+  text-decoration: none;
+  transition: 0.4s ease-in-out;
+}
+
+footer .content-footer a:hover {
+  color: var(--main);
+}
+
+footer .content-footer i {
+  font-size: 14px;
+  color: var(--white);
+  text-decoration: none;
+  margin-right: 8px;
+}
+
+/* media */
+
+@media (max-width: 768px) {
+
+  #bg {
+    background-color: #000000ae;
+    background-blend-mode: color;
+  }
+
+  #bg .content-bg .title-bg p {
+    color: var(--white);
+  }
+
+  #about-us .content-right {
+    margin-top: 50px;
+  }
+
+  #quality .content-left .text-left {
+    margin-top: 30px;
+  }
+
+  #quality {
+    padding: 30px 0;
+  }
+
+  #quality .content-middle img {
+    height: fit-content;
+    width: fit-content;
+  }
+
+  #quality .content-right .text-right {
+    margin-top: 30px;
+  }
+
+  #services {
+    padding: 45px 0;
+  }
+
+  #value {
+    padding: 45px 0;
+  }
+
+  #value .content-value {
+    flex-direction: column-reverse;
+  }
+
+  #value .content-left img {
+    height: auto;
+  }
+
+}

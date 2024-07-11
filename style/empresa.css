@@ -1,0 +1,172 @@
+
+#sec-one{
+  padding-top: 170px;
+  padding-bottom: 30px;
+}
+
+#sec-one .content-sec-one{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+#sec-one .content-right h2{
+  color: var(--main);
+  font-size: 28px;
+}
+
+#sec-one .content-right p{
+  font-size: 16px;
+}
+
+#sec-one .btn-know-more{
+  margin-top: 30px;
+}
+
+#sec-one .btn-know-more i{
+  margin-left: 10px;
+}
+
+#sec-one .btn-know-more a{
+  padding: 15px 30px;
+  background-color: var(--main);
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.4s all ease-in-out;
+}
+
+#sec-one .btn-know-more a:hover{
+  margin-left: 40px;
+}
+
+/* section two */
+
+#sec-two{
+  padding: 90px 0;
+}
+
+#sec-two .content-sec-two{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+#sec-two .card-sec-two{
+  height: 330px;
+  width: 300px;
+  background-color: var(--bg);
+  text-align: center;
+  padding: 25px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  transition: 0.4s all ease-in-out;
+}
+
+#sec-two .card-sec-two:hover{
+  transform: scale(1.1);
+}
+
+#sec-two .card-sec-two i{
+  font-size: 26px;
+  margin-bottom: 16px;
+  color: var(--main);
+}
+
+#sec-two .card-sec-two .text-card{
+  height: 210px;
+  display: flex;
+  align-items: center;
+}
+
+/*section three */
+
+#sec-three{
+  padding: 70px 0;
+}
+
+#sec-three .content-sec-three{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#sec-three .content-left h2{
+  font-size: 28px;
+  color: var(--main);
+  margin-bottom: 16px;
+}
+
+#sec-three .btn-contact-us{
+  margin-top: 30px;
+}
+
+#sec-three .btn-contact-us a{
+  padding: 15px 30px;
+  color: var(--white);
+  background-color: var(--main);
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.4s all ease-in-out;
+  border-radius: 10px;
+}
+
+#sec-three .btn-contact-us a:hover{
+  margin-left: 40px;
+}
+
+#sec-three .btn-contact-us i{
+  margin-left: 10px;
+}
+
+/* media */
+
+@media (max-width: 768px){
+
+  #sec-one {
+    padding-top: 140px;
+}
+
+
+#sec-one .content-right h2 {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+#sec-one .btn-know-more a {
+  padding: 10px 20px;
+}
+
+#sec-one .btn-know-more {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+#sec-two {
+  padding: 60px 0;
+}
+
+#sec-three {
+  padding: 30px 0;
+}
+#sec-three .content-left h2 {
+  font-size: 22px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+#sec-three .btn-contact-us a {
+  padding: 10px 20px;
+}
+
+#sec-three .btn-contact-us {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+}

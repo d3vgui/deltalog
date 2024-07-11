@@ -1,0 +1,94 @@
+/* INDEX */
+
+.bg-h2-none,
+.bg-p-none,
+.bg-btn-none
+{
+  visibility: hidden;
+}
+
+/* QUEM SOMOS INDEX */
+
+.about-us-h5-none,
+.about-us-h2-none,
+.about-us-p-none,
+.about-us-btn-none,
+.about-us-video-none
+{
+visibility: hidden;
+}
+
+/* QUALIDADES  INDEX */
+
+.quality-text-none,
+.quality-img-none
+{
+  visibility: hidden;
+}
+
+/* SERVIÇOS INDEX */
+
+.services-h5-none,
+.services-h2-none,
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5
+{
+  visibility: hidden;
+}
+
+/* SECTION ONE EMPRESA */
+
+.empresa-sec-one-h2-none,
+.empresa-sec-one-p-none,
+.empresa-sec-one-p2-none,
+.empresa-btn-sec-one-none,
+.empresa-sec-one-img-none
+{
+  visibility: hidden;
+}
+
+/* SECTION TWO EMPRESA */
+
+.empresa-sec-two-card-1,
+.empresa-sec-two-card-2,
+.empresa-sec-two-card-3
+{
+  visibility: hidden;
+}
+
+/* SECTION THREE EMPRESA */
+
+.empresa-sec-three-h2-none,
+.empresa-sec-three-p-none,
+.empresa-sec-three-p2-none,
+.empresa-btn-sec-three-none,
+.empresa-sec-three-img-none
+{
+  visibility: hidden;
+}
+
+/* SERVIÇOS */
+
+.servicos-text-left-h5-none,
+.servicos-text-left-h2-none,
+.servicos-text-left-p-none,
+.servicos-text-left-p2-none,
+.servicos-text-left-p3-none,
+.servicos-text-left-p4-none,
+.servicos-btn-none,
+.servicos-img-none
+{
+  visibility: hidden;
+}
+
+.servicos-text-right-h2-none,
+.servicos-text-right-p-none,
+.servicos-text-right-p2-none,
+.servicos-text-right-p3-none,
+.servicos-img-left-none
+{
+  visibility: hidden;
+}

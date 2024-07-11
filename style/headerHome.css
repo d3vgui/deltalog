@@ -1,0 +1,121 @@
+#headerHome {
+  box-sizing: border-box;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.scrolledHome {
+  background-color: var(--white);
+  box-shadow: 0 4px 8px #0000001a;
+}
+
+#headerHome img {
+  height: 60px;
+  width: 230px;
+}
+
+#menuHome {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+#headerHome ul {
+  margin-bottom: 0px !important;
+}
+
+#menuHome a {
+  display: block;
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+  padding: 10px 30px;
+  position: relative;
+  font-size: 17px;
+}
+
+#menuHome a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: var(--main);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.4s ease-in-out;
+}
+
+#menuHome a:hover::after {
+  width: 100%;
+}
+
+#btn-mobileHome {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #menuHome {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 90px;
+    right: 0px;
+    background: var(--white);
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+  #navHome.active #menuHome {
+    height: calc(100vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+  }
+  #menuHome a {
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    color: black;
+  }
+  #btn-mobileHome {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+  }
+  #hamburgerHome {
+    border-top: 2px solid;
+    width: 20px;
+  }
+  #hamburgerHome::after,
+  #hamburgerHome::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+  }
+  #navHome.active #hamburgerHome {
+    border-top-color: transparent;
+  }
+  #navHome.active #hamburgerHome::before {
+    transform: rotate(135deg);
+  }
+  #navHome.active #hamburgerHome::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+}
