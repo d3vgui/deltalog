@@ -88,6 +88,11 @@
   margin-left: 10px;
 }
 
+#about-us video{
+  width: 100%;
+  height: auto;
+}
+
 /* quality */
 
 #quality {
